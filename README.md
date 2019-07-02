@@ -2,12 +2,12 @@
 
 Use Predicate for validations
   
-  Ex: 
-  Need to validate isNotNull or Size is greater than zero.
-  Predicate<TripEvents> istripeventsexists = ev -> ( ev != null && ev.getTripEvents().size() > 0) ;
+  Ex:   Need to validate isNotNull or Size is greater than zero.  
+  Predicate<TripEvents> istripeventsexists = ev -> ( ev != null && ev.getTripEvents().size() > 0) ;  
+  
   Ex: Predicate<Event> isEventPublished = ev -> (eventPublisher(ev) == HttpStatus.ACCEPTED) ;
   
-Use Functional Programming
+Use Functional Programming 
  Function<TripEvents, TripEvents> eventStreamPublisher = te -> {
       te.getTripEvents().removeIf(isEventPublished) ;
 //    
@@ -20,7 +20,7 @@ Use Functional Programming
    } ;
 
 
-How to use above two features in method
+How to use above two features in method  
  private void publishEventToTracking(Event event){
       TripEvents pendingTripEvents = getPendingEventsNotSentToTAPI(getEventDocID(event));
       if(isEventPublished.test(event) ){
