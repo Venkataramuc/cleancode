@@ -37,7 +37,10 @@ How to use above two features in method
    }
 
 
-Clean Code
+Clean Code:
+
+https://dzone.com/articles/java-code-review-checklist
+
 Checklist Item
 
 Category
