@@ -1,5 +1,10 @@
 # CleanCode
 
+
+Code Review Links
+https://www.evoketechnologies.com/blog/simple-effective-code-review-tips/
+https://www.evoketechnologies.com/blog/code-review-checklist-perform-effective-code-reviews/
+
 Use Predicate for validations
   
   Ex:   Need to validate isNotNull or Size is greater than zero.  
