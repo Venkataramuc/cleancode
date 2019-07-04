@@ -5,6 +5,8 @@ Code Review Links
 https://www.evoketechnologies.com/blog/simple-effective-code-review-tips/
 https://www.evoketechnologies.com/blog/code-review-checklist-perform-effective-code-reviews/
 
+https://github.com/eugenp/tutorials
+
 
 While reviewing the code, ask yourself the following basic questions:
 
