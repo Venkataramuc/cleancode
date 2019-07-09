@@ -7,7 +7,9 @@
     final Optional<ScheduleGenerationJobDetail>  scheduleJob = waveParameterRepositoryService
         .findJobDetailsByJobName(jobName);
         }
-  
+  ## Function
+       Method should have max 5 to 10 lines
+       
   ## Meaningful Names . 
             ex:   int d; // elapsed time in days
                      
