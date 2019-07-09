@@ -1,5 +1,10 @@
 # Code review Rules
 
+## Github .  
+     Checkin comments should be meaning full.
+
+
+
 ## declare a variable and method with final if you think this method or varibale will not change for further.    
        public final void invokeJobExecutor(final String jobName) {
     LOGGER.info("invoking the scheduleJob : {}", jobName);
