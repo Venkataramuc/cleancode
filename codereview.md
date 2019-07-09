@@ -6,9 +6,9 @@
 
 # Class
 
- Interface or Class should have alteast 3 to 5 methods and max should have 10 mthods. 
- if we have class with 1 method then make functional programming or lamda(if launge supports) 
- Function should have max 5 to 10 lines.
+ Interface or Class should have alteast 3 to 5 methods and max should have 10 methods.     
+ if we have class with 1 method then make functional programming or lamda(if launge supports)    
+ Function should have max 5 to 10 lines.    
  
 ## declare a variable and method with final if you think this method or varibale will not change for further.    
        public final void invokeJobExecutor(final String jobName) {
